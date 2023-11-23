@@ -16,15 +16,14 @@ def indikatorkelulusan(nilai):
         print("Sangat Baik")
     elif nilai >= 81 and nilai <= 100:
         print("Istimewa")
+    else :
+        print("tidak ditemukan")
 nilai = int(input("masukan nilai: "))
 indikatorkelulusan(nilai)
 
 def sebut_ganjil(angka):
     for a in range(angka):
         if a % 2 != 0 :
-            print(a,end=' ')
+            print(a,end=" ")
 bilangan = int(input("masukan angka: "))
 sebut_ganjil(bilangan)
-
-        
-    
